@@ -1,6 +1,10 @@
 <template>
   <div>
     <frame-50 />
+    <FrameContest />
+    <the-funnel />
+    <huge-affiliates />
+    <need-anything-sect />
     <copy-right />
   </div>
 </template>

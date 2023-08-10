@@ -2,7 +2,7 @@
 
 body {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1920px;
     height: 100%;
     margin: auto;
     padding: 0;
@@ -24,22 +24,13 @@ input:focus {
 
 .d-container {
     width: 100%;
-    max-width: 1010px;
-    margin: auto;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 40px ;
+    padding-right: 40px ;
 }
 
-@media screen and (max-width: 1024px) {
-    .d-container {
-        margin: auto 100px;
-    }
-}
-@media screen and (max-width: 768px) {
-    .d-container {
-        margin: auto 36px;
-    }
-}
-@media screen and (max-width: 540px) {
-    .d-container {
-        margin: auto 16px;
-    }
+
+@media screen and (max-width: 767px) {
+    .d-container {  padding-left: 16px; padding-right: 16px ;}
 }

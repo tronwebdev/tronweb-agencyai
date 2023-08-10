@@ -10,9 +10,9 @@
         <form
           class="my-[32px] md:mx-[0] mx-[16px] flex items-center justify-center"
         >
-          <div class="bg-[#fff] rounded-full pl-[20px] flex items-center">
+          <div class="bg-[#fff] rounded-full pl-[20px] flex items-center justify-between">
             <img class="mr-[10px]" src="/icons/mail.svg" alt="mail icon" />
-            <input type="text" class="bg-transparent" />
+            <input type="text" class="m:w-auto w-[45%] bg-transparent" />
             <button
               type="submit"
               class="purple-bg-btn md:text-[18px] text-[14px] text-[#fff] md:px-[20px] px-[14px] md:py-[14px] py-[10px] self-end"
@@ -48,7 +48,7 @@
 }
 .b-box {
   border-radius: 24px;
-  background: #e3e7fe;
+  background: #e3e7fe70;
 }
 .purple-bg-btn {
   border-radius: 132.338px;
