@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper relative">
+        <div class="wrapper relative">
         <!-- <img class="w-full absolute top-0 left-0" src="/icons/purplebg.svg" alt="">
         <img class="w-full absolute top-0 right-0" src="/icons/bluebg.svg" alt="">
         <img class="w-full absolute top-10 right-0" src="/icons/whitebg.svg" alt=""> -->
@@ -10,8 +10,8 @@
 
       <div class="d-container sm:pt-[95px] pt-[30px] sm:pb-[115px] pb-[50px]">
           <div class="flex sm:flex-row flex-col sm:space-y-0 space-y-6 sm:space-x-[100px] lg:space-x-[40x] space-x-0 koro">
-              <div class="lg:max-w-[400px] sm:max-w-[300px] sm:max-w-[90%]">
-                  <h1 class="text-[#3B57F4] sm:text-[32px] text-[20px] font-bold pb-3">If Your Customers are not using AI, Well, They&apos;re Not Using AI</h1>
+              <div class="lg:max-w-[400px] sm:max-w-[300px] sm:max-w-[90%] text-white">
+                  <h1 class="text-[#3B57F4] sm:text-[32px] text-[20px] font-bold pb-3 text-white">If Your Customers are not using AI, Well, They&apos;re Not Using AI</h1>
                   <p class="sm:text-[16px] text-[14px] pb-3">Agencies & freelancers who are not using AI are going to lose business to the ones that are.</p>
                   <p class="sm:text-[16px] text-[14px] pb-3">AI is fast, quick, & produces better results, which is exactly what businesses want.</p>
                   <p class="sm:text-[16px] text-[14px] pb-3">As we move towards a more digitized world, businesses are going to demand content & assets generated at the click of a button.</p>
@@ -59,12 +59,14 @@
 </script>
   
   <style scoped>
-  .wrapper{ background: #FAF0FF;}
+.wrapper {
+  background: linear-gradient(144deg, #AB3ADD 50%, #3B57F4 50%, #FAF0FF 50%);
+  background-color: #FAF0FF;
+}
   .text-wrapper {
     border-radius: 24px;
     background: #FFF;
     /* box-shadow: 0px 61px 80px 0px rgba(59, 87, 244, 0.10); */
   }
-  
   
   </style>

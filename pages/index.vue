@@ -1,10 +1,11 @@
 <template>
   <div>
-    <!-- <frame-50 /> -->
+    <frame-50 />
     <heyjv />
     <WelcomeAgencyAI />
     <YourCustomer />
-    <!-- <copy-right /> -->
+    <FrameBoundGroupOne />
+    <copy-right />
   </div>
 </template>
 
