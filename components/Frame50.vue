@@ -7,17 +7,17 @@
           class="w-full flex md:flex-row flex-col items-center justify-center"
         >
           <img
-            class="md:mr-[60px]"
+            class="lg:mr-[60px]"
             src="/images/high-conveting-text.png"
             alt="text image"
           />
           <div
-            class="md:my-0 my-[50px] bg-[#FF6FED] p-[14px] rounded-full text-[#8D00C9] text-[28px] font-[500] flex items-center justify-center"
+            class="md:my-0 my-[50px] bg-[#FF6FED] p-[14px] rounded-[100%] text-[#8D00C9] text-[28px] font-[500] flex items-center justify-center"
           >
             &
           </div>
           <img
-            class="md:ml-[60px]"
+            class="lg:ml-[60px]"
             src="/images/cahp-t.png"
             alt="cash prize text"
           />

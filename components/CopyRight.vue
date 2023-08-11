@@ -2,9 +2,9 @@
   <main class="cr-bg">
     <div class="xl:ml-[215px] lg:ml-[100px] md:ml-[36px] ml-[16px] pt-[110px]">
       <div class="flex items-center justify-between">
-        <div class="w-[50%] text-[#fff] mb-[31px] mr-[16px]">
-          <h3 class="text-[48px] mb-[48px] font-[700]">Affiliate promotion Terms & conditions</h3>
-          <p class="text-[20px]">
+        <div class="lg:w-[100%] text-[#fff] mb-[31px] mr-[16px]">
+          <h3 class="lg:text-[48px] md:text-[36px] text-[30px] mb-[48px] font-[700]">Affiliate promotion Terms & conditions</h3>
+          <p class="md:text-[20px] text-[16px]">
             Our dashboard has been designed for multiple user accounts, which
             means your TEAM & CLIENTS can access it too. <br /><br/>Running your profitable
             business might require a pair of extra hands to manage small tasks
@@ -18,8 +18,8 @@
           </p>
         </div>
 
-        <div class="mb-[24px] opacity-[50%]">
-            <img src="/images/image-41.png" alt="image 41">
+        <div class="mb-[24px] lg:block hidden">
+            <img src="/images/frame-56.png" alt="image 41">
         </div>
       </div>
     </div>

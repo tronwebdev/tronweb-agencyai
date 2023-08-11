@@ -5,6 +5,10 @@
     <WelcomeAgencyAI />
     <YourCustomer />
     <FrameBoundGroupOne />
+    <FrameContest />
+    <the-funnel />
+    <huge-affiliates />
+    <need-anything-sect />
     <copy-right />
   </div>
 </template>
