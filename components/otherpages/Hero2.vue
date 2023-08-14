@@ -1,8 +1,8 @@
 <template>
-  <main class="op-hero h-screen md:pt-[155px] pt-[115px] -mt-[80px]">
+  <main class="op-hero md:pt-[160px] pt-[115px] -mt-[80px]">
     <div class="max-w-[1200px] mx-auto xl:px-[10px] lg:px-[60px] sm:px-[80px] ">
       <div class="w-full grid md:grid-cols-2">
-       <div class="lg:text-left text-center">
+       <div class="lg:text-left text-center px-[20px]">
         <h2 class="font-[800] lg:text-[60px] text-[30px] text-[#fff] mb-[24px]">
           Thriving in the Digital Landscape Made Easy
         </h2>
@@ -32,6 +32,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-height: 100vh;
+  min-height: 100vh;
+  height: 100%;
 }
 </style>

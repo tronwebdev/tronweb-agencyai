@@ -1,8 +1,8 @@
 <template>
   <main>
     <OtherpagesHero2 />
-    <main class="md:mt-[-80px]">
-      <div class="flex md:flex-row flex-col-reverse md:items-end items-center md:w-[80%]">
+    <main class="lg::mt-[-80px] md:mt-[-200px] mt-[-100px]">
+      <div class="flex md:flex-row flex-col-reverse md:items-end items-center lg:w-[80%] md:w-[95%]">
         <div class="lg:mr-[34px] md:mr-[16px] mr-[0] mb-[40px]">
             <img class="" src="/icons/consult_phot_n_bg.svg" alt="photo" />
         </div>
@@ -22,6 +22,7 @@
       </div>
     </main>
     <OtherpagesReviews/>
+    <BaseMainFooter />
   </main>
 </template>
 
