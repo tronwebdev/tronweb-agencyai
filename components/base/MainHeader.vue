@@ -18,7 +18,7 @@
      <div class="flex items-center space-x-3">
       <a href="#">
         <button class="bg-[#AB3ADD] rounded-full text-white px-4 sm:py-3 py-2">Affiliate Link</button>
-        
+
       </a>
 
       <button class="togglebtn" @click="toggleMobileNav">
