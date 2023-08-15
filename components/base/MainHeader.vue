@@ -1,7 +1,7 @@
 <template>
    <header
-    :class="{ 'shadow-md': isScrolled }"
-    class="sticky relative top-0 w-full py-4 bg-white z-10 lg:px-[80px] px-[16px]"
+    :class="{ 'shadow-md bg-white': isScrolled }"
+    class="sticky relative top-0 w-full py-4 bg-transparent z-50 lg:px-[80px] px-[16px]"
   >
     <div class="max-w-[1200px] mx-auto w-full flex items-center justify-between">
       <div>
@@ -9,16 +9,15 @@
       </div>
       <nav class="nav-desktop">
         <ul class="flex items-center lg:space-x-8 space-x-4">
-          <a href="#"><li class="border-b-2 border-transparent hover:border-b-2 hover:border-[#AB3ADD] hover:text-[#AB3ADD] transition duration-300">Products</li></a>
-          <a href="#"><li class="border-b-2 border-transparent hover:border-b-2 hover:border-[#AB3ADD] hover:text-[#AB3ADD] transition duration-300">Features</li></a>
-          <a href="#"><li class="border-b-2 border-transparent hover:border-b-2 hover:border-[#AB3ADD] hover:text-[#AB3ADD] transition duration-300">How It Works</li></a>
-          <a href="#"><li class="border-b-2 border-transparent hover:border-b-2 hover:border-[#AB3ADD] hover:text-[#AB3ADD] transition duration-300">Tools</li></a>
+          <NuxtLink to="/" class="border-b-2 border-transparent hover:border-b-2 hover:border-[#AB3ADD] hover:text-[#AB3ADD] transition duration-300">Products</NuxtLink>
+          <NuxtLink to="/features" class="border-b-2 border-transparent hover:border-b-2 hover:border-[#AB3ADD] hover:text-[#AB3ADD] transition duration-300">Features</NuxtLink>
+          <NuxtLink to="/how-it-works" class="border-b-2 border-transparent hover:border-b-2 hover:border-[#AB3ADD] hover:text-[#AB3ADD] transition duration-300">How It Works</NuxtLink>
+          <NuxtLink to="/tools" class="border-b-2 border-transparent hover:border-b-2 hover:border-[#AB3ADD] hover:text-[#AB3ADD] transition duration-300">Tools</NuxtLink>
         </ul>
       </nav>
      <div class="flex items-center space-x-3">
       <a href="#">
         <button class="bg-[#AB3ADD] rounded-full text-white px-4 sm:py-3 py-2">Affiliate Link</button>
-        
       </a>
 
       <button class="togglebtn" @click="toggleMobileNav">
@@ -67,6 +66,7 @@ const handleScroll = () => {
 };
 
 const toggleMobileNav = () => {
+  console.log('hgjgh')
   mobileNavOpen.value = !mobileNavOpen.value;
 };
 </script>
@@ -81,6 +81,11 @@ const toggleMobileNav = () => {
 .slide-fade-enter, .slide-fade-leave-to {
   opacity: 0;
   transform: translateX(-20px);
+}
+
+a.router-link-active {
+  border-bottom: 2px solid #AB3ADD;
+  color: #AB3ADD
 }
 
  @media screen and (max-width: 767px) {

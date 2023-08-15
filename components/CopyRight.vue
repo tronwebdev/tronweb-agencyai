@@ -2,7 +2,7 @@
   <main class="cr-bg">
     <div class="xl:ml-[215px] lg:ml-[100px] md:ml-[36px] ml-[16px] pt-[110px]">
       <div class="flex items-center justify-between">
-        <div class="lg:w-[100%] text-[#fff] mb-[31px] mr-[16px]">
+        <div class="lg:w-[50%] text-[#fff] mb-[31px] mr-[16px]">
           <h3 class="lg:text-[48px] md:text-[36px] text-[30px] mb-[48px] font-[700]">Affiliate promotion Terms & conditions</h3>
           <p class="md:text-[20px] text-[16px]">
             Our dashboard has been designed for multiple user accounts, which
@@ -18,15 +18,15 @@
           </p>
         </div>
 
-        <div class="mb-[24px] lg:block hidden">
-            <img src="/images/frame-56.png" alt="image 41">
+        <div class="w-[50%] mb-[24px] lg:block hidden">
+            <img src="/images/frame-56-2.png" alt="image 41">
         </div>
       </div>
     </div>
       <div
-        class="xl:mx-[215px] lg:mx-[100px] md:mx-[36px] mx-[16px] border-t border-[#828188] py-[48px] flex items-center justify-between"
+        class="xl:mx-[215px] lg:mx-[100px] md:mx-[36px] mx-[16px] border-t border-[#828188] py-[48px] flex  md:flex-row flex-col items-center justify-between"
       >
-        <p>logo</p>
+        <img class="md:mb-[0] mb-[40px]" src="/icons/footer_logo.svg" alt="footer logo">
         <button
           class="purple-bg-btn md:text-[24px] text-[18px] flex items-center"
         >

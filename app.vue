@@ -1,7 +1,8 @@
 <template>
   <div class="">
     <NuxtLayout>
-      <RouterView/>
+      <NuxtLoadingIndicator /> <!-- here -->
+      <NuxtPage />
     </NuxtLayout>
   </div>
 </template>

@@ -1,11 +1,12 @@
 <template>
   <div>
+    <index-hero />
     <frame-50 />
     <heyjv />
     <WelcomeAgencyAI />
     <YourCustomer />
     <FrameBoundGroupOne />
-    <FrameContest />
+    <!-- <FrameContest /> -->
     <the-funnel />
     <huge-affiliates />
     <need-anything-sect />
