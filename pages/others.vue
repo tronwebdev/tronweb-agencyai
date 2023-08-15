@@ -21,6 +21,7 @@
         </div>
       </div>
     </main>
+    <OtherpagesHelpyou />
     <OtherpagesReviews/>
     <BaseMainFooter />
   </main>
