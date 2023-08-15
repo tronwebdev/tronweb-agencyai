@@ -31,7 +31,7 @@
             <img src="/icons/brandico_facebook-rect.svg" alt="facebook" />
             <img src="/icons/teenyicons_instagram-solid.svg" alt="instagram" />
             <img src="/icons/mdi_twitter.svg" alt="twitter" />
-            <img src="/icons/brandico_linkedIn-rect.svg" alt="linkedIn" />
+            <img src="/icons/brandico_linkedin-rect.svg" alt="linkedIn" />
           </div>
         </div>
       </div>
